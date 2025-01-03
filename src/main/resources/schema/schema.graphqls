@@ -1,0 +1,9 @@
+type Query {
+    search(searchInput: SearchInput): String
+}
+
+input SearchInput {
+    title: String
+    score: Int
+    actor: String
+}
